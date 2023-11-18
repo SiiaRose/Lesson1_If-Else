@@ -1,18 +1,11 @@
-﻿int age = 26;
+﻿int x = 3;
+int y = 2;
 
-if (age > 18)
-{
-    Console.WriteLine("You are adult");
-}
-if(age >= 14)
-{
-    Console.WriteLine("You are teenager");
-}
-if (age <= 0)
-{
-    Console.WriteLine("Invalid age");
-}
+int z = x > y ? x : y;
+
+/*
+if (x > y)
+    z = x;
 else
-{
-    Console.WriteLine("You are child");
-}
+    z = y;
+*/
